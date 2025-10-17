@@ -1,0 +1,66 @@
+"GPU_Benchmarks.csv" source: https://www.kaggle.com/datasets/alanjo/gpu-benchmarks
+"GPU_Scores.csv" .......... source: https://www.kaggle.com/datasets/alanjo/gpu-benchmarks
+"GPU_Specs.csv" ............ source: https://www.kaggle.com/datasets/alanjo/graphics-card-full-specs
+
+GPU_Benchmarks.csv
+-------------------------------------------------
+[ gpuName ]
+	Model of the GPU
+[ G3Dmark ]
+	Performance score on 3D graphics
+[ G2Dmark ]
+	Performance score on 2D graphics
+[ price ]
+	Last seen market price in USD ($)
+[ gpuValue ]
+	`G3Dmark` / `price`
+[ TDP ]
+	Max thermal design pattern, in watts (W)
+[ powerPerformance ]
+	`G3Dmark` / `TDP`
+[ testDate ]
+	Date of the first benchmark submission
+[ category ]
+	category of GPU
+
+
+
+GPU_Scores.csv
+-------------------------------------------------
+[ Manufacturer ]
+	Make of the GPU
+[ Device ]
+	Model of the GPU
+[ CUDA ]
+	Performance score measured by the number of CUDA cores the GPU contains
+[ Metal ]
+	Performance score measured by Apple's Metal API
+[ OpenCL ]
+	Performance score measured by OpenCL applications
+[ Vulkan ]
+	Performance score measured by Vulkan Benchmark Browser
+
+
+
+GPU_Specs.csv
+-------------------------------------------------
+[ manufacturer ]
+	Make of the GPU
+[ productName ]
+	Model of the GPU
+[ releaseYear ]
+	The release year of the GPU
+[ memSize ]
+	Memory size of the GPU, in GB
+[  memBusWidth ]
+	Memory Bus Width, in bits (connects graphics processor to memory)
+[ gpuClock ]
+	GPU clock speed, in MHz
+[ memClock ]
+	Memory clock speed, in MHz
+[ unifiedShader ]
+	Unified Shaders, (used for shaders)
+[ tmu ]
+	Texture Mapping Units, (used for processing and applying texture mappings)
+[ rop ]
+	Render output units, (used for making sure all pixels are final before being displayed to the screen)
